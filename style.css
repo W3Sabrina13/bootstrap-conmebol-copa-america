@@ -1,0 +1,29 @@
+.social-link a{
+    text-decoration: none;
+}
+
+.youtube-style{
+  color: red;  
+
+}
+
+.instagram-style{
+    color: blueviolet;
+}
+
+@media (max-width: 668px) {
+   .header-body{
+    flex-direction: column;
+    justify-content: space-between;
+   } 
+   .header-title{
+    margin-bottom: 20px;
+   }
+   .intro{
+    flex-direction: column;
+   }
+   .intro-desc{
+    margin-bottom: 20px;
+   }
+}
+
